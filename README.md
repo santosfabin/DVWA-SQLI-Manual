@@ -49,7 +49,7 @@
 - Então vamos aos testes.
     - `' order by 1 --`
         
-        ![Untitled](DVWA%20-%20SQLI%20Manual%203c4d8ceba5314134b2a0a590b3e64ad2/Untitled%203.png)
+        ![Untitled](DVWA%20-%20SQLI%20Manual/Untitled%203.png)
         
         - Perceba que nada aconteceu, então o número de colunas está correto ou é menor do que o esperado.
     
@@ -57,7 +57,7 @@
     
     - `' union select 1 --`
         
-        ![Untitled](DVWA%20-%20SQLI%20Manual%203c4d8ceba5314134b2a0a590b3e64ad2/Untitled%204.png)
+        ![Untitled](DVWA%20-%20SQLI%20Manual/Untitled%204.png)
         
         - Já com o UNION é diferente, pois ele requer uma quantidade exata.
 
@@ -71,7 +71,7 @@
     
     - `' union select 1,2 --`
         
-        ![Untitled](DVWA%20-%20SQLI%20Manual%203c4d8ceba5314134b2a0a590b3e64ad2/Untitled%205.png)
+        ![Untitled](DVWA%20-%20SQLI%20Manual/Untitled%205.png)
         
         - Agora sim, perceba que funcionou
     
@@ -122,7 +122,7 @@
     
     - Resultado
         
-        ![Untitled](DVWA%20-%20SQLI%20Manual%203c4d8ceba5314134b2a0a590b3e64ad2/Untitled%207.png)
+        ![Untitled](DVWA%20-%20SQLI%20Manual/Untitled%207.png)
         
 
 ---
